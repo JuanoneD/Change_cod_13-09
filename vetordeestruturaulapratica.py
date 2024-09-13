@@ -9,7 +9,6 @@ for i in range(3):
     candato['email'] = input("Escreva o email do candidato")
     candidatos.append(candato)
     
-for index,i in candidatos:
-    print(index)
+for i in candidatos:
     print(i)
     
