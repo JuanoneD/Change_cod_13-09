@@ -11,6 +11,8 @@ first = 0
 end = 9
 find = False
 
+vet.sort()
+
 while first<=end:
     mid = int((first+end)/2)
     if(proc<vet[mid]):
